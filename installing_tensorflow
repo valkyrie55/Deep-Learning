@@ -1,0 +1,34 @@
+---------------------------------------Tensorflow installation --------------------------
+We can't directyle instally tensorflow using pip install --upgrade tensorflow
+I've gone through a lot of steps and finally I made through it. Here are the basic steps to follow if you are new to deep learning.
+
+1. Install anaconda and other stuff. You don't need to install python before installing anaconda.
+   Don't forget to add anaconda to your path for using it. 
+   Go to command prompt and type:
+          >>> where anaconda
+          >>> C:\Users\digitallibrary\Anaconda3\Scripts\anaconda.exe
+          >>> set path =%path%;C:\Users\digitallibrary\Anaconda3\Scripts;C:\Users\digitallibrary\Anaconda3
+              #now you can use 'conda' as a command in command prompt. 
+              #conda is a tool for managing and deploying applications, environments and packages.
+          >>> conda  
+              # this will install all the conda packages
+------------------------------------------------------------
+2. Create a virtual environment using conda.
+   A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated
+   python virtual environments for them. This is one of the most important tools that most of the Python developers use
+   Open Anaconda prompt and type in:
+          >>> conda create -n virtualenv_name
+          >>> activate virtualenv_name
+              #To deactivate >>> deactivate
+          >>> pip install --upgrade tensorflow
+          >>> spyder
+
+  or do:
+          >>> virtualenv project1
+          >>> activate project1
+              #to check existing conda environments:  >>> conda info --envs
+          >>> conda install -c https://conda.anaconda.org/jjhelmus tensorflow
+          >>> spyder
+              #now import tensorflow and use, Grazie!
+3. Now import tensorflow and use it.
+ For help: https://stackoverflow.com/questions/37041511/how-to-use-tensorflow-on-spyder
