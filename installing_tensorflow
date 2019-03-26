@@ -17,18 +17,17 @@ I've gone through a lot of steps and finally I made through it. Here are the bas
    A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated
    python virtual environments for them. This is one of the most important tools that most of the Python developers use
    Open Anaconda prompt and type in:
+     #Download it for both base and environment
+          >>> conda install -c https://conda.anaconda.org/jjhelmus tensorflow
+              #tensorflow is noe installed, open spyder or python console and get started.
+          >>> spyder
+          --------------------------------------
+          #or you can create a virtualenv and then install tensorflow
           >>> conda create -n virtualenv_name
           >>> activate virtualenv_name
               #To deactivate >>> deactivate
-          >>> pip install --upgrade tensorflow
-          >>> spyder
-
-  or do:
-          >>> virtualenv project1
-          >>> activate project1
-              #to check existing conda environments:  >>> conda info --envs
           >>> conda install -c https://conda.anaconda.org/jjhelmus tensorflow
           >>> spyder
+              #to check existing conda environments:  >>> conda info --envs
               #now import tensorflow and use, Grazie!
-3. Now import tensorflow and use it.
- For help: https://stackoverflow.com/questions/37041511/how-to-use-tensorflow-on-spyder
+ 
