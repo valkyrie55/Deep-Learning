@@ -1,5 +1,5 @@
 ---------------------------------------Tensorflow installation --------------------------
-We can't directy instally tensorflow using pip install --upgrade tensorflow
+We can't directy install tensorflow using pip install --upgrade tensorflow
 I've gone through a lot of steps and finally I made through it. Here are the basic steps to follow if you are new to deep learning.
 
 1. Install anaconda and other stuff. You don't need to install python before installing anaconda.
