@@ -1,2 +1,2 @@
 # Deep-Learning
-My notes as a beginner
+My deep learning notes
