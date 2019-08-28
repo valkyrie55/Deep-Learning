@@ -1,4 +1,4 @@
-Install anaconda first, then 
+Install anaconda first, then run 'export PATH=~/anaconda3/bin:$PATH'
 1. #install pip using conda
    conda install pip
 2. pip3 install --upgrade tensorflow
