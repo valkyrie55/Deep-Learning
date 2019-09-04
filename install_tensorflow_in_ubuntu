@@ -8,4 +8,4 @@ $ conda create -n fashion-mnist-tutorial# activate the environment you just crea
 $ source activate fashion-mnist-tutorial# install pip 
 $ conda install pip# install latest version of Tensorflow
 $ pip install --upgrade tensorflow # if you are prompted to upgrade pip
-$ pip install --upgrade pip
+$ sudo -H pip3 install --upgrade pip
